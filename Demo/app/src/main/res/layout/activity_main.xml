@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="168dp"
+        android:layout_height="76dp"
+        android:layout_x="225dp"
+        android:layout_y="369dp"
+        android:background="@drawable/a"
+        android:text="Button" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="160dp"
+        android:layout_height="78dp"
+        android:layout_x="44dp"
+        android:layout_y="368dp"
+        android:text="Button" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="189dp"
+        android:layout_height="185dp"
+        android:layout_x="117dp"
+        android:layout_y="91dp"
+        android:background="@drawable/circle"
+        android:scaleType="fitXY"
+        android:src="@drawable/ic_user" />
+
+</AbsoluteLayout>
