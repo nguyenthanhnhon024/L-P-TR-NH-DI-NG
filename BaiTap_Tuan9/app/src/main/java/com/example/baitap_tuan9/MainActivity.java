@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        
+
         gv = (GridView) findViewById(R.id.mygridview);
         arr_bean = new ArrayList<ListViewBean>();
         arr_bean.add(new ListViewBean(R.drawable.vietnam,"Việt Nam"));
