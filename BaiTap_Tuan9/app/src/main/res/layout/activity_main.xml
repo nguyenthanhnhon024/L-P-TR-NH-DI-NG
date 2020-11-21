@@ -8,41 +8,20 @@
     tools:context=".MainActivity">
 
     <RelativeLayout
-        android:id="@+id/rellay1"
-        android:layout_marginTop="5dp"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-
-        <ImageView
-            android:layout_width="30dp"
-            android:layout_height="40dp"
-            android:src="@drawable/ic_baseline_arrow_back_24"/>
-        <EditText
-            android:id="@+id/tv_address"
+        android:layout_height="50dp"
+        android:background="@color/gradStart">
+        <TextView
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:fontFamily="sans-serif"
-            android:layout_marginLeft="40dp"
-            android:text="Quốc Kì"
-            android:textAllCaps="true"
-            android:textColor="#000"
-            android:textSize="30dp" />
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:text="Môn học"
+            android:textSize="30sp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="@color/white"/>
+</RelativeLayout>
 
-        <ImageView
-            android:layout_width="50dp"
-            android:layout_height="40dp"
-            android:layout_alignParentRight="true"
-            android:layout_marginRight="50dp"
-            android:adjustViewBounds="true"
-            android:src="@drawable/ic_baseline_add_shopping_cart_24" />
-        <ImageView
-            android:layout_width="50dp"
-            android:layout_height="40dp"
-            android:layout_alignParentRight="true"
-            android:layout_marginRight="5dp"
-            android:adjustViewBounds="true"
-            android:src="@drawable/ic_baseline_more_vert_24" />
-    </RelativeLayout>
     <GridView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -51,14 +30,30 @@
         android:id="@+id/mygridview"
         android:paddingTop="15dp"
         android:paddingBottom="15dp"
-        android:columnWidth="160dp"
+        android:columnWidth="100dp"
         android:gravity="center|bottom"
         android:horizontalSpacing="10dp"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
-        android:numColumns="2"
+        android:numColumns="3"
         android:stretchMode="spacingWidth"
         android:verticalSpacing="20dp"
         android:visibility="visible"/>
-
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="50dp"
+        android:id="@+id/listview"
+        android:divider="@color/black"
+        android:dividerHeight="2dp"/>
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/bottom_nv"
+        app:itemBackground="@color/white"
+        app:itemTextColor="@drawable/selector"
+        app:itemIconTint="@drawable/selector"
+        app:menu="@menu/menu_nv"
+        android:layout_alignParentBottom="true"/>
 </RelativeLayout>

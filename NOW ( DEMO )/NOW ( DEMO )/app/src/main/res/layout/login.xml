@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="true" >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#AAAAAA"
+    tools:context=".Login">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:background="@drawable/background"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/icon_arrow_left_02" />
+
+        <Button
+            android:id="@+id/btdt"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/botron_dangnhapsdt"
+            android:drawableLeft="@drawable/ic_phone"
+            android:drawablePadding="10dp"
+            android:padding="4dp"
+            android:text="Đăng nhập với Số điện thoại"
+            android:textColor="#fff"
+            android:textSize="13sp" />
+
+        <Button
+            android:id="@+id/btfb"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/botron_facebook"
+            android:drawableLeft="@drawable/ic_facebook"
+            android:padding="10dp"
+            android:text="Đăng nhập với Facebook"
+            android:textColor="#fff"
+            android:textSize="13sp" />
+
+        <Button
+            android:id="@+id/btlggg"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/botron_gmail"
+            android:drawableLeft="@drawable/ic_google"
+
+            android:text="Đăng nhập với google"
+            android:textColor="#fff"
+            android:textSize="13sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:text="Hoặc đăng nhập bằng tài khoản của bạn"
+
+            android:textColor="#FBF7F7"
+            android:textSize="17sp"
+            android:textStyle="normal" />
+
+        <EditText
+            android:id="@+id/etdn"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/botron_tendangnhap"
+            android:drawableLeft="@drawable/mail"
+            android:drawablePadding="10dp"
+            android:hint="Tên đăng nhập"
+            android:inputType="textEmailAddress"
+            android:padding="15dp"
+            android:textColorHint="#444444"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/etmk"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/botron_matkhau"
+            android:drawableLeft="@drawable/lock"
+            android:drawablePadding="10dp"
+            android:hint="Mật khẩu của bạn"
+            android:inputType="textPassword"
+            android:padding="15dp"
+            android:textColorHint="#444444"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/btdn"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/botron_dangnhap"
+            android:text="Đăng nhập"
+            android:textColor="#000000"
+            android:textSize="14sp" />
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:max="120"/>
+    </LinearLayout>
+</LinearLayout>
+</ScrollView>

@@ -33,4 +33,7 @@ public class ProductDetails extends AppCompatActivity {
          img.setImageResource(image);
     }
 
+
+   // this tutorial has been completed
+    // see you in the next.
 }

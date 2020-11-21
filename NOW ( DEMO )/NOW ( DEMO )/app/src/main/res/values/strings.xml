@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">NOW ( DEMO )</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_list">Đơn hàng</string>
+    <string name="title_favorite">Đã lưu</string>
+    <string name="title_notification">Thông báo</string>
+    <string name="title_about">Tôi</string>
+</resources>

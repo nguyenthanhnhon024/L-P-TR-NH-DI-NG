@@ -3,9 +3,9 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
-    ImageView
-        android:layout_width="160dp"
-        android:layout_height="160dp"
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
         android:id="@+id/im_test"
         android:layout_marginTop="10dp"
         android:layout_marginRight="10dp"
