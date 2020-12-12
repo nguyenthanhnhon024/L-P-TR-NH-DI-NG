@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Bottom_Navigation_View_Account.Account_Login"
+    android:background="#EDEDED">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".Main_LoginSignup"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:background="@drawable/account_login_background_top"
+            android:orientation="vertical">
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:text="Chào bạn,"
+                android:textColor="#050101"
+                android:textSize="30sp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="15dp"
+                android:text="Nhập số điện thoại để tiếp tục"
+                android:textColor="#050101"
+                android:textSize="17sp"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal"
+                >
+
+                <EditText
+                    android:background="@drawable/order_fragment_one_items_background"
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:drawablePadding="20dp"
+                    android:padding="14dp"
+                    android:drawableLeft ="@drawable/logo_vietnam"
+                    android:drawableRight = "@drawable/icon_arrow_drop_down"
+                    android:textColor="#050101"
+                    android:textSize="35sp"
+                    />
+
+                <EditText
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:drawablePadding="20dp"
+                    android:padding="14dp"
+                    android:hint="Số điện thoại"
+                    android:background="@drawable/order_fragment_one_items_background"
+                    android:textColor="#050101"
+                    android:textSize="20sp"
+                    />
+            </LinearLayout >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                >
+
+                <RelativeLayout
+                    android:layout_alignParentBottom = "true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    >
+                    <TextView
+                        android:fontFamily = "@font/open_sans"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="120dp"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="Hoặc đăng nhập bằng"
+                        android:textColor="#050101"
+                        android:textSize="18.5sp"
+                        />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/B_LOGIN"
+                    android:layout_alignParentBottom = "true"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    >
+
+                    <Button
+
+                        android:id="@+id/FACEBOOK"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="45dp"
+                        android:layout_width="170dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="50dp"
+                        android:drawablePadding="20dp"
+                        android:padding="15dp"
+                        android:text="Facebook"
+                        android:textColor="#FFFFFF"
+                        android:background="@drawable/button_facebook_background"
+                        android:textSize="20sp"
+                        android:textAllCaps="false"
+                        />
+
+                    <Button
+                        android:layout_toRightOf="@+id/FACEBOOK"
+                        android:layout_marginRight="15dp"
+                        android:layout_width="170dp"
+                        android:layout_height="wrap_content"
+                        android:padding="15dp"
+                        android:text="Email"
+                        android:background="@drawable/button_email_background"
+                        android:textAllCaps="false"
+                        android:textColor="#FFFFFF"
+                        android:textSize="20sp"
+                        />
+                </RelativeLayout>
+
+                <TextView
+                    android:layout_alignParentBottom = "true"
+                    android:id="@+id/tv_back"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:gravity="center"
+                    android:text="Bỏ qua"
+                    android:textColor="#2196F3"
+                    android:textSize="18sp"
+                    />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

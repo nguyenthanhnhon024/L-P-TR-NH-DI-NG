@@ -1,0 +1,39 @@
+<resources >
+    <style
+        name = "COLORS"
+        parent = "Theme.AppCompat.Light.DarkActionBar"
+        >
+
+        <item name = "colorAccent" > @color/COLOR_ACCENT </item >
+        <item name = "colorPrimary" > @color/COLOR_PRIMARY </item >
+        <item name = "colorPrimaryDark" > @color/COLOR_PRIMARY_DARK </item >
+    </style >
+
+    <style
+        name = "BOTTOM_NAVIGATION_VIEW_ACTIVE"
+        parent = "Widget.Design.BottomNavigationView"
+        >
+
+        <item name = "android:textSize" > 14sp </item >
+    </style >
+
+    <style
+        name = "TAB_LAYOUT_CUSTOM"
+        parent="Widget.Design.TabLayout"
+        >
+
+        <item name = "tabSelectedTextColor" > @android:color/black </item >
+        <item name = "tabIndicatorColor" > #FF9800 </item >
+        <item name = "tabIndicatorHeight" > 3dp </item >
+        <item name = "tabBackground" > ?attr/selectableItemBackground </item >
+    </style >
+
+    <style
+        name = "TAB_LAYOUT_TEXT"
+        parent = "TextAppearance.Design.Tab"
+        >
+
+        <item name = "textAllCaps" > false </item >
+        <item name = "android:textSize" > 17dp </item >
+    </style >
+</resources >

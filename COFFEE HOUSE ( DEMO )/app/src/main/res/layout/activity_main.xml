@@ -1,0 +1,49 @@
+<?xml
+    version = "1.0"
+    encoding = "utf-8"
+    ?>
+
+<RelativeLayout
+    android:layout_height = "match_parent"
+    android:layout_width = "match_parent"
+    xmlns:android = "http://schemas.android.com/apk/res/android"
+    xmlns:app = "http://schemas.android.com/apk/res-auto"
+    xmlns:tools = "http://schemas.android.com/tools"
+    tools:context = ".Activity_Main"
+    >
+
+    <RelativeLayout
+        android:layout_height = "wrap_content"
+        android:layout_width = "wrap_content"
+        >
+
+        <ImageView
+            android:layout_height = "match_parent"
+            android:layout_width = "match_parent"
+            android:src = "@drawable/activity_main_background"
+            />
+
+        <LinearLayout
+            android:gravity = "center"
+            android:layout_height = "wrap_content"
+            android:layout_marginTop = "550dp"
+            android:layout_width = "match_parent"
+            android:orientation = "horizontal"
+            >
+
+            <ProgressBar
+                android:layout_height = "30dp"
+                android:layout_marginEnd = "15dp"
+                android:layout_width = "30dp"
+                />
+
+            <TextView
+                android:layout_height = "wrap_content"
+                android:layout_width = "wrap_content"
+                android:text = "Loading ..."
+                android:textColor = "#000"
+                android:textSize = "25sp"
+                />
+        </LinearLayout >
+    </RelativeLayout >
+</RelativeLayout >

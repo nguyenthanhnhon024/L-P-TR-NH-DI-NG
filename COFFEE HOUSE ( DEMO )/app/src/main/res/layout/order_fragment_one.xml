@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_height = "match_parent"
+    android:layout_width = "match_parent"
+    android:orientation = "vertical"
+    xmlns:android = "http://schemas.android.com/apk/res/android"
+    xmlns:tools = "http://schemas.android.com/tools"
+    tools:context=".Bottom_Navigation_View_Order.Tab_Layout_Common.Order_Fragment_One"
+    >
+
+    <LinearLayout
+        android:layout_height = "wrap_content"
+        android:layout_marginBottom = "8dp"
+        android:layout_marginLeft = "15dp"
+        android:layout_marginTop = "10dp"
+        android:layout_width = "match_parent"
+        >
+
+        <TextView
+            android:fontFamily = "@font/open_sans"
+            android:layout_height = "wrap_content"
+            android:layout_width = "wrap_content"
+            android:text = "Món được yêu thích"
+            android:textColor = "#000"
+            android:textSize = "16dp"
+            android:textStyle = "bold"
+        />
+    </LinearLayout >
+
+    <ScrollView
+        android:fillViewport = "true"
+        android:layout_height = "match_parent"
+        android:layout_width = "match_parent"
+        >
+        <!--
+            <androidx.recyclerview.widget.RecyclerView
+            android:id = "@+id/ORDER_FRAGMENT_ONE_RV"
+            android:layout_height = "match_parent"
+            android:layout_width = "match_parent"
+        />
+        -->
+
+        <RelativeLayout
+            android:layout_height = "wrap_content"
+            android:layout_margin = "10dp"
+            android:layout_width = "match_parent"
+            >
+
+            <GridView
+                android:id = "@+id/ORDER_FRAGMENT_ONE_GV"
+                android:horizontalSpacing = "10dp"
+                android:layout_height = "1450dp"
+                android:layout_width = "match_parent"
+                android:numColumns = "2"
+                android:verticalSpacing = "10dp"
+                />
+        </RelativeLayout >
+    </ScrollView >
+</LinearLayout >

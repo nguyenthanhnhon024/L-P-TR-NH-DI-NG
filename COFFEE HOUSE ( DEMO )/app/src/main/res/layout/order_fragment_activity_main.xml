@@ -1,0 +1,46 @@
+<?xml
+    version = "1.0"
+    encoding = "utf-8"
+?>
+<RelativeLayout
+    android:background = "#fff"
+    android:layout_height = "match_parent"
+    android:layout_width = "match_parent"
+    xmlns:android = "http://schemas.android.com/apk/res/android"
+    xmlns:app = "http://schemas.android.com/apk/res-auto"
+    xmlns:tools = "http://schemas.android.com/tools"
+    tools:context = ".Bottom_Navigation_View_Order.Order_Fragment_Activity_Main"
+    >
+
+    <com.google.android.material.tabs.TabLayout
+        android:id = "@+id/ORDER_FRAGMENT_ONE_ACTIVITY_MAIN_TL"
+        android:background = "#FFF"
+        android:layout_alignParentTop = "true"
+        android:layout_height = "50dp"
+        android:layout_width = "match_parent"
+        app:tabTextAppearance = "@style/TAB_LAYOUT_TEXT"
+        style = "@style/TAB_LAYOUT_CUSTOM"
+    />
+
+    <androidx.viewpager.widget.ViewPager
+        android:layout_below = "@+id/ORDER_FRAGMENT_ONE_ACTIVITY_MAIN_TL"
+        android:id = "@+id/ORDER_FRAGMENT_ONE_ACTIVITY_MAIN_VP"
+        android:layout_height = "match_parent"
+        android:layout_width = "match_parent"
+    />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:background = "@drawable/bottom_navigation_view_shape"
+        android:id = "@+id/ORDER_FRAGMENT_ONE_ACTIVITY_MAIN_BNV"
+        android:layout_alignParentBottom = "true"
+        android:layout_gravity = "bottom"
+        android:layout_height = "60dp"
+        android:layout_width = "match_parent"
+        app:itemHorizontalTranslationEnabled = "true"
+        app:itemIconTint = "@drawable/bottom_navigation_view_selector"
+        app:itemTextColor = "@drawable/bottom_navigation_view_selector"
+        app:itemTextAppearanceActive = "@style/BOTTOM_NAVIGATION_VIEW_ACTIVE"
+        app:labelVisibilityMode = "labeled"
+        app:menu = "@menu/bottom_navigation_view_items"
+    />
+</RelativeLayout >

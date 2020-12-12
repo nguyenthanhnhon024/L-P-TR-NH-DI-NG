@@ -1,0 +1,32 @@
+<?xml
+    version = "1.0"
+    encoding = "utf-8"
+?>
+
+<menu
+    xmlns:android = "http://schemas.android.com/apk/res/android"
+    >
+
+    <item
+        android:icon = "@drawable/icon_news"
+        android:id = "@+id/BNV_ITEMS_NEWS"
+        android:title = "Tin Tức"
+    />
+
+    <item
+        android:icon = "@drawable/icon_bike"
+        android:id = "@+id/BNV_ITEMS_ORDER"
+        android:title = "Đặt Hàng"
+    />
+
+    <item
+        android:icon = "@drawable/icon_store"
+        android:id="@+id/BNV_ITEMS_STORE"
+        android:title="Cửa Hàng"
+        />
+    <item
+        android:icon="@drawable/icon_person_02"
+        android:id="@+id/BNV_ITEMS_ACCOUNT"
+        android:title="Tài Khoản"
+        />
+</menu>

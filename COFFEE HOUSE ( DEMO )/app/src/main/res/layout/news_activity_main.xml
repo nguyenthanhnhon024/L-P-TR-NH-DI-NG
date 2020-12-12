@@ -1,0 +1,277 @@
+<?xml
+    version = "1.0"
+    encoding = "utf-8"
+?>
+
+<RelativeLayout
+    android:layout_height = "match_parent"
+    android:layout_width = "match_parent"
+    xmlns:android = "http://schemas.android.com/apk/res/android"
+    xmlns:app = "http://schemas.android.com/apk/res-auto"
+    xmlns:tools = "http://schemas.android.com/tools"
+    tools:context = ".Bottom_Navigation_View_News.News_Activity_Main"
+    >
+
+    <RelativeLayout
+        android:background = "@color/WHITE"
+        android:layout_height = "wrap_content"
+        android:layout_width = "match_parent"
+        >
+
+        <ImageView
+            android:id = "@+id/NEWS_ACTIVITY_MAIN_IV_ICON_PERSON_01"
+            android:layout_centerVertical = "true"
+            android:layout_height = "wrap_content"
+            android:layout_width = "wrap_content"
+            android:layout_marginLeft = "20dp"
+            android:layout_marginRight = "10dp"
+            android:src = "@drawable/icon_person_01"
+        />
+
+        <Button
+            android:fontFamily = "@font/open_sans"
+            android:background = "@drawable/button_border"
+            android:hint = "Đăng nhập"
+            android:id = "@+id/NEWS_ACTIVITY_MAIN_B_LOGIN"
+            android:layout_height = "wrap_content"
+            android:layout_width = "150dp"
+            android:layout_margin = "5dp"
+            android:textColorHint = "#FF9800"
+            android:textSize = "18sp"
+            android:layout_toRightOf = "@id/NEWS_ACTIVITY_MAIN_IV_ICON_PERSON_01"
+        />
+
+        <ImageView
+            android:layout_alignParentRight = "true"
+            android:layout_centerVertical = "true"
+            android:layout_height = "wrap_content"
+            android:layout_width = "wrap_content"
+            android:layout_marginRight = "20dp"
+            android:src = "@drawable/icon_notifications_none"
+        />
+    </RelativeLayout >
+
+    <ScrollView
+        android:fillViewport = "true"
+        android:layout_height = "1300dp"
+        android:layout_marginTop = "60dp"
+        android:layout_width = "fill_parent"
+        >
+
+        <LinearLayout
+            android:layout_height = "wrap_content"
+            android:layout_width = "match_parent"
+            android:orientation = "vertical"
+            >
+
+            <LinearLayout
+                android:background = "@color/WHITE"
+                android:layout_height = "150dp"
+                android:layout_marginTop = "10dp"
+                android:layout_width = "match_parent"
+                android:orientation = "horizontal"
+                >
+
+                <GridView
+                    android:horizontalSpacing="0dp"
+                    android:id = "@+id/NEWS_ACTIVITY_MAIN_GV_MENU"
+                    android:layout_height = "150dp"
+                    android:layout_width = "match_parent"
+                    android:numColumns = "3"
+                />
+            </LinearLayout >
+
+            <LinearLayout
+                android:gravity = "center_vertical"
+                android:layout_height = "wrap_content"
+                android:layout_marginTop = "20dp"
+                android:layout_width = "match_parent"
+                android:orientation = "horizontal"
+                >
+
+                <TextView
+                    android:layout_height = "wrap_content"
+                    android:layout_marginLeft = "15dp"
+                    android:layout_width = "wrap_content"
+                    android:layout_weight = "3"
+                    android:text = "Ưu đãi đặc biệt"
+                    android:textColor = "#000"
+                    android:textSize = "22dp"
+                />
+
+                <ImageView
+                    android:id = "@+id/NEWS_ACTIVITY_MAIN_IV_MORE_HORIZ_01"
+                    android:layout_height = "wrap_content"
+                    android:layout_marginRight = "30dp"
+                    android:layout_width = "wrap_content"
+                    android:src = "@drawable/icon_more_horiz"
+                />
+            </LinearLayout >
+
+            <LinearLayout
+                android:layout_height = "wrap_content"
+                android:layout_marginLeft = "15dp"
+                android:layout_marginRight = "5dp"
+                android:layout_marginTop = "10dp"
+                android:layout_width = "match_parent"
+                android:orientation = "vertical"
+                >
+
+                <HorizontalScrollView
+                    android:layout_height = "wrap_content"
+                    android:layout_width = "match_parent"
+                    >
+
+                    <RelativeLayout
+                        android:layout_height = "wrap_content"
+                        android:layout_width = "match_parent"
+                        >
+
+                        <GridView
+                            android:id = "@+id/NEWS_ACTIVITY_MAIN_GV_OFFERS"
+                            android:horizontalSpacing = "10dp"
+                            android:layout_height = "340dp"
+                            android:layout_width = "1650dp"
+                            android:numColumns = "6"
+                        />
+                    </RelativeLayout >
+                </HorizontalScrollView >
+            </LinearLayout >
+
+            <LinearLayout
+                android:gravity = "center_vertical"
+                android:layout_height = "wrap_content"
+                android:layout_marginTop = "20dp"
+                android:layout_width = "match_parent"
+                android:orientation = "horizontal"
+                >
+
+                <TextView
+                    android:layout_height = "wrap_content"
+                    android:layout_marginLeft = "15dp"
+                    android:layout_width = "wrap_content"
+                    android:layout_weight = "3"
+                    android:text = "Cập nhật từ Nhà"
+                    android:textColor = "#000"
+                    android:textSize = "22dp"
+                    />
+
+                <ImageView
+                    android:id = "@+id/NEWS_ACTIVITY_MAIN_IV_MORE_HORIZ_02"
+                    android:layout_height = "wrap_content"
+                    android:layout_marginRight = "30dp"
+                    android:layout_width = "wrap_content"
+                    android:src = "@drawable/icon_more_horiz"
+                    />
+            </LinearLayout >
+
+            <LinearLayout
+                android:layout_height = "wrap_content"
+                android:layout_marginLeft = "15dp"
+                android:layout_marginRight = "5dp"
+                android:layout_marginTop = "10dp"
+                android:layout_width = "match_parent"
+                android:orientation = "vertical"
+                >
+
+                <HorizontalScrollView
+                    android:layout_height = "wrap_content"
+                    android:layout_width = "match_parent"
+                    >
+
+                    <RelativeLayout
+                        android:layout_height = "wrap_content"
+                        android:layout_width = "match_parent"
+                        >
+
+                        <GridView
+                            android:id = "@+id/NEWS_ACTIVITY_MAIN_GV_UPDATE"
+                            android:horizontalSpacing = "10dp"
+                            android:layout_height = "340dp"
+                            android:layout_width = "1100dp"
+                            android:numColumns = "4"
+                        />
+                    </RelativeLayout >
+                </HorizontalScrollView >
+            </LinearLayout >
+
+            <LinearLayout
+                android:gravity = "center_vertical"
+                android:layout_height = "wrap_content"
+                android:layout_marginTop = "20dp"
+                android:layout_width = "match_parent"
+                android:orientation = "horizontal"
+                >
+
+                <TextView
+                    android:layout_height = "wrap_content"
+                    android:layout_marginLeft = "15dp"
+                    android:layout_width = "wrap_content"
+                    android:layout_weight = "3"
+                    android:text = "#CoffeeLover"
+                    android:textColor = "#000"
+                    android:textSize = "22dp"
+                    />
+
+                <ImageView
+                    android:id = "@+id/NEWS_ACTIVITY_MAIN_IV_MORE_HORIZ_03"
+                    android:layout_height = "wrap_content"
+                    android:layout_marginRight = "30dp"
+                    android:layout_width = "wrap_content"
+                    android:src = "@drawable/icon_more_horiz"
+                    />
+            </LinearLayout >
+
+            <LinearLayout
+                android:layout_height = "wrap_content"
+                android:layout_marginLeft = "15dp"
+                android:layout_marginRight = "5dp"
+                android:layout_marginTop = "10dp"
+                android:layout_width = "match_parent"
+                android:orientation = "vertical"
+                >
+
+                <HorizontalScrollView
+                    android:layout_height = "wrap_content"
+                    android:layout_width = "match_parent"
+                    >
+
+                    <RelativeLayout
+                        android:layout_height = "wrap_content"
+                        android:layout_width = "match_parent"
+                        >
+
+                        <GridView
+                            android:id = "@+id/NEWS_ACTIVITY_MAIN_GV_COFFEELOVER"
+                            android:horizontalSpacing = "10dp"
+                            android:layout_height = "340dp"
+                            android:layout_width = "2490dp"
+                            android:numColumns = "9"
+                        />
+                    </RelativeLayout >
+                </HorizontalScrollView >
+
+                <TextView
+                    android:layout_height = "wrap_content"
+                    android:layout_marginTop = "70dp"
+                    android:layout_width = "match_parent"
+                />
+            </LinearLayout >
+        </LinearLayout >
+    </ScrollView >
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:background = "@drawable/bottom_navigation_view_shape"
+        android:id = "@+id/NEWS_ACTIVITY_MAIN_BNV"
+        android:layout_alignParentBottom = "true"
+        android:layout_gravity = "bottom"
+        android:layout_height = "60dp"
+        android:layout_width = "match_parent"
+        app:itemHorizontalTranslationEnabled = "true"
+        app:itemIconTint = "@drawable/bottom_navigation_view_selector"
+        app:itemTextColor = "@drawable/bottom_navigation_view_selector"
+        app:itemTextAppearanceActive = "@style/BOTTOM_NAVIGATION_VIEW_ACTIVE"
+        app:labelVisibilityMode = "labeled"
+        app:menu = "@menu/bottom_navigation_view_items"
+    />
+</RelativeLayout >

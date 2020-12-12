@@ -1,0 +1,11 @@
+<?xml
+    version = "1.0"
+    encoding = "utf-8"
+    ?>
+
+<resources >
+    <color name = "COLOR_ACCENT" > #03DAC5 </color >
+    <color name = "COLOR_PRIMARY" > #6200EE </color >
+    <color name = "COLOR_PRIMARY_DARK" > #3700B3 </color >
+    <color name = "WHITE" > #FFFFFF </color >
+</resources >
