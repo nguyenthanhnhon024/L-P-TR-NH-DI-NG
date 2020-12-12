@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Main_Login">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#EDEDED"
+            android:orientation="vertical"
+            tools:context=".Main_LoginSignup">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:layout_gravity="center"
+                android:background="#FF9800"
+                android:orientation="horizontal"
+                android:weightSum="8">
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="35dp"
+                    android:layout_weight="1.5"
+                    android:src="@drawable/ic_user" />
+
+                <TextView
+                    android:id="@+id/tvlg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="52dp"
+                    android:text="Đăng Nhập"
+                    android:textSize="22sp"
+                    android:background="#FF9800"
+                    android:textColor="#FFFFFF" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:background="#FFFFFF"
+                    android:drawableLeft="@drawable/ic_stars"
+                    android:drawablePadding="20dp"
+                    android:padding="14dp"
+                    android:text="The Coffe House Rewards"
+                    android:textColor="#050101"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:background="#FFFFFF"
+                    android:drawableLeft="@drawable/ic_person"
+                    android:drawablePadding="20dp"
+                    android:padding="14dp"
+                    android:text="Thông tin tài khoản"
+                    android:textColor="#050101"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:background="#FFFFFF"
+                    android:drawableLeft="@drawable/ic_music"
+                    android:drawablePadding="20dp"
+                    android:padding="14dp"
+                    android:text="Nhạc đang phát"
+                    android:textColor="#050101"
+                    android:textSize="18sp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:background="#FFFFFF"
+                    android:drawableLeft="@drawable/ic_timer"
+                    android:drawablePadding="20dp"
+                    android:padding="14dp"
+                    android:text="Lịch sử"
+                    android:textColor="#050101"
+                    android:textSize="18sp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:background="#FFFFFF"
+                    android:drawableLeft="@drawable/ic_help"
+                    android:drawablePadding="20dp"
+                    android:padding="14dp"
+                    android:text="Giúp đỡ"
+                    android:textColor="#050101"
+                    android:textSize="18sp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:background="#FFFFFF"
+                    android:drawableLeft="@drawable/ic_settings"
+                    android:drawablePadding="20dp"
+                    android:padding="14dp"
+                    android:text="Cài đặt"
+                    android:textColor="#050101"
+                    android:textSize="18sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/BNV"
+        android:layout_gravity="bottom"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        app:itemBackground="@color/white"
+        app:itemIconTint="@drawable/selector"
+        app:itemTextColor="@drawable/selector"
+        app:itemHorizontalTranslationEnabled="true"
+        android:background="@drawable/menu_bottom_navigation_view"
+        app:labelVisibilityMode="labeled"
+        app:menu="@menu/menu_bottom_navigation_view"
+        app:itemTextAppearanceActive="@style/Bottom_Navigation_View"/>
+</RelativeLayout>

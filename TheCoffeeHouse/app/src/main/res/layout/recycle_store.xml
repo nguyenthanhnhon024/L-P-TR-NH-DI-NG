@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/gridiconlc"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/border_bk">
+
+        <ImageView
+            android:id="@+id/imgst"
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/pasteur"/>
+
+        <TextView
+            android:id="@+id/namest"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imgst"
+            android:padding="6dp"
+            android:text="Quận Hải Châu"
+            android:textColor="#000000"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/chitietst"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/namest"
+            android:paddingLeft="6dp"
+            android:paddingRight="6dp"
+            android:paddingBottom="6dp"
+            android:textColor="#000000"
+            android:text="80 Pasteur"
+            android:textSize="15dp" />
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

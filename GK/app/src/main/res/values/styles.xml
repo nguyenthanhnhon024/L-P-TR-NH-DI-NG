@@ -7,4 +7,8 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="Bottom_Navigation_View" parent="Widget.Design.BottomNavigationView">
+        <item name="android:textSize">13.5sp</item>
+    </style>
+
 </resources>

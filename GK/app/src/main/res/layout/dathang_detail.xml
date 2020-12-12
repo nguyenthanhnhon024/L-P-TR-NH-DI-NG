@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Main_Dathang_Detail">
+
+    <TextView
+        android:background="#FF9800"
+        android:id="@+id/title1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:maxLines="1"
+        android:text="MÓN 1         "
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:drawableLeft="@drawable/ic_back_white"
+        android:paddingLeft="10dp"
+        android:textSize="28dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="410dp"
+        android:id="@+id/ivImage2"
+        android:src="@drawable/mon1"
+        android:scaleType="centerCrop"
+        android:layout_marginTop="3dp"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        >
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="69.000đ"
+            android:textSize="25sp"
+            android:textColor="@color/colorPrimaryDark"
+            android:id="@+id/tvPrice1"
+            android:gravity="left"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  Đã bán (56)  |  "
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="5dp"
+            />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/star"
+            android:layout_gravity="center"
+            />
+        <TextView
+            android:id="@+id/danhgia1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4.8"
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        >
+
+        <RatingBar
+            android:id="@+id/rating_bar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:numStars="5"
+            android:stepSize="0.5" />
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="45dp"
+            android:id="@+id/bt_submit"
+            android:text="Đánh giá"
+            android:layout_marginLeft="15dp"
+            android:textSize="18dp"
+            android:background="@drawable/dangnhap"
+            android:layout_gravity="center"
+            />
+    </LinearLayout>
+
+</LinearLayout>

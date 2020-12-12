@@ -26,8 +26,6 @@ public class Activity_Milk_Tea extends AppCompatActivity
         addControl();
 
         ITEM_MT_ICON_BACK = findViewById(R.id.ITEM_MT_ICON_BACK);
-
-        ITEM_MT_ICON_BACK = findViewById(R.id.ITEM_MT_ICON_BACK);
         ITEM_MT_ICON_BACK.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 finish();
