@@ -81,7 +81,7 @@
             android:textStyle="normal" />
 
         <EditText
-            android:id="@+id/etdn"
+            android:id="@+id/ettk"
             android:layout_width="350dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
@@ -119,14 +119,17 @@
             android:text="Đăng nhập"
             android:textColor="#000000"
             android:textSize="14sp" />
+        <Button
+            android:id="@+id/btdk"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/botron_dangnhap"
+            android:text="Đăng kí"
+            android:textColor="#000000"
+            android:textSize="14sp" />
 
-        <ProgressBar
-            android:id="@+id/progressBar"
-            style="?android:attr/progressBarStyleHorizontal"
-            android:layout_marginTop="10dp"
-            android:layout_width="match_parent"
-            android:layout_height="30dp"
-            android:max="120"/>
     </LinearLayout>
 </LinearLayout>
 </ScrollView>

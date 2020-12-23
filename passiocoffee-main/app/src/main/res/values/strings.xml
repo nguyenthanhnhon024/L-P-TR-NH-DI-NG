@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Passio</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="tin2">Trong tháng khai trương, Passio 644 Nguyễn Thị Định Q.2 dành tặng khách hàng chương trình ưu đãi cực kì hấp dẫn:
+Ưu đãi 19.000đ cà phê Espresso đá/ sữa đá (size M) từ 6h - 10h Mua 1 tặng 1 từ 18h - 23h mỗi ngày. Khi mua 01 ly size L các món Latte đá, Passio Choco, Passion Chill, Chanh Tuyết, Cookie cream bạn sẽ nhận ngay 01 ly size M bất kỳ thuộc các món trên. Sản phẩm được tặng có giá thấp hơn sản phẩm mua.</string>
+    <string name="tin1">Đây là cửa hàng được xây dựng theo mô hình Cà phê Kiosk mà Passio giới thiệu ra thị trường trong thời gian qua. Cửa hàng mới sẽ mang đến sự tiện lợi tối đa cho khách hàng với tốc độ sản xuất sản phẩm nhanh chóng, nhưng vẫn đảm bảo chất lượng sản phẩm và dịch vụ.</string>
+</resources>

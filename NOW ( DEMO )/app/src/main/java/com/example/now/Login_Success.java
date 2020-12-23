@@ -7,6 +7,8 @@ import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
+import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AlertDialog;
@@ -22,6 +24,8 @@ public class Login_Success extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.login_success);
         btdxuat = (Button) findViewById(R.id.btdx);
+        final TextView text = findViewById(R.id.textUser);
+        text.setText(getIntent().getStringExtra("user"));
         btdxuat.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

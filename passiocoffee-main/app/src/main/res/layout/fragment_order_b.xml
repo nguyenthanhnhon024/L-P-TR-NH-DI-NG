@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#F4F4F4"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.duyexample.passiocoffee.Fragment.OrderBFragment"
+    android:padding="10dp">
+
+    <!-- TODO: Update blank fragment layout -->
+    <GridView
+        android:scrollbars="none"
+        android:id="@+id/gv_soda"
+        android:horizontalSpacing="16dp"
+        android:verticalSpacing="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:numColumns="2"/>
+
+</FrameLayout>

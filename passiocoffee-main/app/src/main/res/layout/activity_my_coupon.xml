@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.duyexample.passiocoffee.Activity.MyCouponActivity">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_notification_detail"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#fff"/>
+    <com.google.android.material.tabs.TabLayout
+        android:background="@drawable/border_bottom"
+        android:id="@+id/coupon"
+        app:tabSelectedTextColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/nvuse"
+            android:text="Chưa sử dụng" />
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/used"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Đã sử dụng" />
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/dated"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Đã hết hạn" />
+    </com.google.android.material.tabs.TabLayout>
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/vp_coupon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </androidx.viewpager.widget.ViewPager>
+</LinearLayout>

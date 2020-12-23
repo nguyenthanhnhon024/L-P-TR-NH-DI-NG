@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.duyexample.passiocoffee">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Passio">
+        <activity android:name=".Activity.NotificationDetailActivity"></activity>
+        <activity android:name=".Activity.ThongBaoActivity"/>
+        <activity android:name=".Activity.NotificationActivity" />
+        <activity android:name=".Activity.Map" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyD9xwmxYTJYZj4byplFWocZYvSNqVdN1T4" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+        <activity android:name=".Activity.ClickBuyActivity" />
+        <activity android:name=".Activity.HomeActivity" />
+        <activity android:name=".Activity.LoginActivity" />
+        <activity android:name=".Activity.ProfileActivity" />
+        <activity android:name=".Activity.MemberCardActivity" />
+        <activity android:name=".Activity.MyCouponActivity" />
+        <activity android:name=".Activity.OrderActivity" />
+        <activity android:name=".Activity.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

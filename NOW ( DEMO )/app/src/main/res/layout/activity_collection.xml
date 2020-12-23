@@ -13,7 +13,7 @@
         android:background="#fff">
 
         <ImageView
-            android:id="@+id/IV_COLLECTION_BACK"
+            android:id="@+id/back"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentLeft="true"

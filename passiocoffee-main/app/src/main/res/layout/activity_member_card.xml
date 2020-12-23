@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FAFAFA"
+    tools:context="com.duyexample.passiocoffee.Activity.MemberCardActivity">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="20dp">
+
+        <LinearLayout
+            android:padding="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar_notification_detail"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="#fff"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/memcard" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="KHÔNG CÓ COUPON NÀO"
+                android:textColor="#6C6C6C"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="Xem tất cả coupon"
+                android:textAlignment="center"
+                android:textColor="#afcb07"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_marginTop="15dp"
+        app:cardCornerRadius="20dp"
+        android:layout_margin="20dp"
+        android:padding="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:padding="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textColor="@color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Passio rewards"
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Thành viên mới (Green)"
+                android:textSize="16dp"/>
+            <TextView
+                android:layout_marginBottom="20dp"
+                android:textSize="22dp"
+                android:textStyle="bold"
+                android:textColor="#afcb07"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0 điểm"/>
+
+            <com.google.android.material.tabs.TabLayout
+                android:background="@drawable/border_hozirontal"
+                android:id="@+id/rank"
+                app:tabSelectedTextColor="@color/black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.google.android.material.tabs.TabItem
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/silver"
+                    android:text="Silver" />
+
+                <com.google.android.material.tabs.TabItem
+                    android:id="@+id/gold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Gold" />
+
+                <com.google.android.material.tabs.TabItem
+                    android:id="@+id/plat"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Platinum" />
+            </com.google.android.material.tabs.TabLayout>
+            <androidx.viewpager.widget.ViewPager
+                android:id="@+id/vp_rank"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </androidx.viewpager.widget.ViewPager>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

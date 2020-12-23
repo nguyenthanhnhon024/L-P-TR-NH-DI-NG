@@ -1,0 +1,757 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ecc581da-d7a7-49ed-9edb-bcba70dbf0c3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../DemoOTP/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DemoOTP/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DemoOTP/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DemoOTP/app/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DemoOTP/app/src/main/java/com/example/demootp/MainActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DemoOTP/app/src/main/res/drawable/ic_ve.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DemoOTP/app/src/main/res/drawable/send.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DemoOTP/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DemoOTP/app/src/main/res/values-night/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DemoOTP/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DemoOTP/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DemoOTP/app/src/main/res/values/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DemoOTP/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KtraLan4/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KtraLan4/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KtraLan4/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KtraLan4/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KtraLan4/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KtraLan4/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KtraLan4/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KtraLan4/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KtraLan4/app/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KtraLan4/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KtraLan4/app/src/androidTest/java/com/example/ktralan4/ExampleInstrumentedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KtraLan4/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KtraLan4/app/src/main/java/com/example/ktralan4/MainActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KtraLan4/app/src/main/res/drawable-v24/ic_3cham.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KtraLan4/app/src/main/res/drawable-v24/ic_coupon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KtraLan4/app/src/main/res/drawable-v24/ic_dathang.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KtraLan4/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KtraLan4/app/src/main/res/drawable-v24/ic_news.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KtraLan4/app/src/main/res/drawable-v24/ic_person.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KtraLan4/app/src/main/res/drawable-v24/ic_shipper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KtraLan4/app/src/main/res/drawable-v24/ic_tichdiem.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KtraLan4/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KtraLan4/app/src/main/res/drawable/uudai1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KtraLan4/app/src/main/res/drawable/uudai2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KtraLan4/app/src/main/res/drawable/uudai3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KtraLan4/app/src/main/res/drawable/uudai4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KtraLan4/app/src/main/res/drawable/uudai5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KtraLan4/app/src/main/res/drawable/uudai6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KtraLan4/app/src/main/res/drawable/uudai7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KtraLan4/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KtraLan4/app/src/main/res/layout/row_item.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KtraLan4/app/src/main/res/menu/menu_bottom_navigation_view.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KtraLan4/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KtraLan4/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KtraLan4/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KtraLan4/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KtraLan4/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KtraLan4/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KtraLan4/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KtraLan4/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KtraLan4/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KtraLan4/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KtraLan4/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KtraLan4/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KtraLan4/app/src/main/res/values-night/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KtraLan4/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KtraLan4/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KtraLan4/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KtraLan4/app/src/main/res/values/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KtraLan4/app/src/test/java/com/example/ktralan4/ExampleUnitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KtraLan4/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KtraLan4/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KtraLan4/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KtraLan4/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KtraLan4/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KtraLan4/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KtraLan4/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NOW ( DEMO )/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NOW ( DEMO )/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NOW ( DEMO )/app/google-services.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NOW ( DEMO )/app/src/debug/res/values/google_maps_api.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NOW ( DEMO )/app/src/main/java/com/example/now/Adapter/BoSuuTap_Adapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NOW ( DEMO )/app/src/main/java/com/example/now/Adapter/DiaDiem_Adapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NOW ( DEMO )/app/src/main/java/com/example/now/Adapter/Menu_Adapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NOW ( DEMO )/app/src/main/java/com/example/now/Caidat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NOW ( DEMO )/app/src/main/java/com/example/now/DTO/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NOW ( DEMO )/app/src/main/java/com/example/now/DTO/DiaDiem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NOW ( DEMO )/app/src/main/java/com/example/now/DTO/Menu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NOW ( DEMO )/app/src/main/java/com/example/now/Database/DB_Bosuutap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NOW ( DEMO )/app/src/main/java/com/example/now/Database/DB_Login.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NOW ( DEMO )/app/src/main/java/com/example/now/Database/DB_Map.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NOW ( DEMO )/app/src/main/java/com/example/now/Database/DB_Menu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NOW ( DEMO )/app/src/main/java/com/example/now/MapsActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NOW ( DEMO )/app/src/main/java/com/example/now/SendOTPActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NOW ( DEMO )/app/src/main/java/com/example/now/Thongbao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NOW ( DEMO )/app/src/main/java/com/example/now/TruyVan/BoSuuTap_TV.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NOW ( DEMO )/app/src/main/java/com/example/now/TruyVan/DiaDiem_TV.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NOW ( DEMO )/app/src/main/java/com/example/now/TruyVan/Menu_TV.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NOW ( DEMO )/app/src/main/java/com/example/now/VerifyOTPActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NOW ( DEMO )/app/src/main/java/com/example/now/register.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NOW ( DEMO )/app/src/main/res/drawable/anh.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NOW ( DEMO )/app/src/main/res/drawable/border_bk.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NOW ( DEMO )/app/src/main/res/drawable/ic_sale.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NOW ( DEMO )/app/src/main/res/drawable/ic_setting.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NOW ( DEMO )/app/src/main/res/drawable/ic_tintuc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NOW ( DEMO )/app/src/main/res/drawable/leduan.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NOW ( DEMO )/app/src/main/res/drawable/nguyenchithanh.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NOW ( DEMO )/app/src/main/res/drawable/nguyenvanlinh.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NOW ( DEMO )/app/src/main/res/drawable/nowbg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NOW ( DEMO )/app/src/main/res/drawable/pasteur.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NOW ( DEMO )/app/src/main/res/drawable/trieunuvuong.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NOW ( DEMO )/app/src/main/res/layout/activity_caidat.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NOW ( DEMO )/app/src/main/res/layout/activity_maps.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NOW ( DEMO )/app/src/main/res/layout/activity_register.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NOW ( DEMO )/app/src/main/res/layout/activity_send_o_t_p.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NOW ( DEMO )/app/src/main/res/layout/activity_thongbao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NOW ( DEMO )/app/src/main/res/layout/activity_verify_o_t_p.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NOW ( DEMO )/app/src/main/res/layout/ic_sale.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NOW ( DEMO )/app/src/main/res/layout/ic_setting.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NOW ( DEMO )/app/src/main/res/layout/ic_tintuc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NOW ( DEMO )/app/src/main/res/layout/item_maps.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NOW ( DEMO )/app/src/release/res/values/google_maps_api.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OTP/app/google-services.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OTP/app/src/main/java/com/example/otp/SendOTPActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OTP/app/src/main/java/com/example/otp/VerifyOTPActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OTP/app/src/main/res/drawable/ic_ve.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OTP/app/src/main/res/drawable/now.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OTP/app/src/main/res/drawable/send.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OTP/app/src/main/res/layout/activity_send_o_t_p.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OTP/app/src/main/res/layout/activity_verify_o_t_p.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OTPTest/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OTPTest/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OTPTest/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OTPTest/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OTPTest/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OTPTest/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OTPTest/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OTPTest/app/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OTPTest/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OTPTest/app/src/androidTest/java/com/example/otptest/ExampleInstrumentedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OTPTest/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OTPTest/app/src/main/java/com/example/otptest/MainActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OTPTest/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OTPTest/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OTPTest/app/src/main/res/drawable/ic_ve.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OTPTest/app/src/main/res/drawable/send.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OTPTest/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OTPTest/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OTPTest/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OTPTest/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OTPTest/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OTPTest/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OTPTest/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OTPTest/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OTPTest/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OTPTest/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OTPTest/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OTPTest/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OTPTest/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OTPTest/app/src/main/res/values-night/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OTPTest/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OTPTest/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OTPTest/app/src/main/res/values/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OTPTest/app/src/test/java/com/example/otptest/ExampleUnitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OTPTest/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OTPTest/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OTPTest/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OTPTest/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OTPTest/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OTPTest/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OTPTest/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TheCoffeeHouse/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demofirebasetorecycler/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../loginSMS/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../loginSMS/app/google-services.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A1/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A1/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A1/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A1/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A1/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A1/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A1/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A1/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A1/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A1/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A1/app/src/androidTest/java/com/example/a1/ExampleInstrumentedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A1/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A1/app/src/main/java/com/example/a1/MainActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A1/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A1/app/src/main/res/drawable/bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A1/app/src/main/res/drawable/bg2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A1/app/src/main/res/drawable/bg3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A1/app/src/main/res/drawable/bg31.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A1/app/src/main/res/drawable/buttonstyle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A1/app/src/main/res/drawable/cardbackground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A1/app/src/main/res/drawable/cc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A1/app/src/main/res/drawable/cccc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A1/app/src/main/res/drawable/cerclebackgroundgreen.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A1/app/src/main/res/drawable/cerclebackgroundpink.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A1/app/src/main/res/drawable/cerclebackgroundpurple.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A1/app/src/main/res/drawable/cerclebackgroundyello.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A1/app/src/main/res/drawable/cvcv.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A1/app/src/main/res/drawable/edittextstyle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A1/app/src/main/res/drawable/edittextstyle2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A1/app/src/main/res/drawable/gradient.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A1/app/src/main/res/drawable/gradienteditext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A1/app/src/main/res/drawable/ic_android_black_24dp.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A1/app/src/main/res/drawable/ic_attach_file_black_24dp.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A1/app/src/main/res/drawable/ic_attach_money_black_24dp.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A1/app/src/main/res/drawable/ic_control_point_black_24dp.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A1/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A1/app/src/main/res/drawable/ic_lightbulb_outline_black_24dp.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A1/app/src/main/res/drawable/ic_wifi_black_24dp.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A1/app/src/main/res/drawable/lountain.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A1/app/src/main/res/drawable/qsdsd.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A1/app/src/main/res/drawable/simplebackground.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A1/app/src/main/res/drawable/test.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A1/app/src/main/res/drawable/unn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A1/app/src/main/res/layout/activity_ae.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A1/app/src/main/res/layout/activity_fullscreen.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A1/app/src/main/res/layout/activity_home.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A1/app/src/main/res/layout/activity_login.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A1/app/src/main/res/layout/activity_login2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A1/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A1/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A1/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A1/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A1/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A1/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A1/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A1/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A1/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A1/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A1/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A1/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A1/app/src/main/res/values/attrs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A1/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A1/app/src/main/res/values/dimens.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A1/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A1/app/src/main/res/values/styles.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A1/app/src/test/java/com/example/a1/ExampleUnitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A1/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A1/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A1/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A1/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A1/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A1/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A1/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/com/example/activity/ExampleInstrumentedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/activity/ChildActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/activity/MainActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_child.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/menu/activity_child.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/menu/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/java/com/example/activity/ExampleUnitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Android-recycler-view-multiselect-master/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Android-recycler-view-multiselect-master/.idea/caches/gradle_models.ser" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Android-recycler-view-multiselect-master/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Android-recycler-view-multiselect-master/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Android-recycler-view-multiselect-master/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Android-recycler-view-multiselect-master/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Android-recycler-view-multiselect-master/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Android-recycler-view-multiselect-master/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Android-recycler-view-multiselect-master/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Android-recycler-view-multiselect-master/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Android-recycler-view-multiselect-master/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Android-recycler-view-multiselect-master/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Android-recycler-view-multiselect-master/app/src/androidTest/java/mobi/com/multiselect/ExampleInstrumentedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Android-recycler-view-multiselect-master/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Android-recycler-view-multiselect-master/app/src/main/java/mobi/com/multiselect/Adapters/AdapterListInbox.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Android-recycler-view-multiselect-master/app/src/main/java/mobi/com/multiselect/MultiSelect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Android-recycler-view-multiselect-master/app/src/main/java/mobi/com/multiselect/Tools.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Android-recycler-view-multiselect-master/app/src/main/java/mobi/com/multiselect/adddata.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Android-recycler-view-multiselect-master/app/src/main/java/mobi/com/multiselect/model/Inbox.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Android-recycler-view-multiselect-master/app/src/main/res/drawable-v24/ic_create.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Android-recycler-view-multiselect-master/app/src/main/res/drawable-v24/ic_delete.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Android-recycler-view-multiselect-master/app/src/main/res/drawable-v24/ic_done.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Android-recycler-view-multiselect-master/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Android-recycler-view-multiselect-master/app/src/main/res/drawable-v24/ic_refresh.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Android-recycler-view-multiselect-master/app/src/main/res/drawable-v24/photo_female_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Android-recycler-view-multiselect-master/app/src/main/res/drawable-v24/photo_female_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Android-recycler-view-multiselect-master/app/src/main/res/drawable-v24/photo_female_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Android-recycler-view-multiselect-master/app/src/main/res/drawable-v24/photo_male_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Android-recycler-view-multiselect-master/app/src/main/res/drawable-v24/photo_male_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Android-recycler-view-multiselect-master/app/src/main/res/drawable-v24/photo_male_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Android-recycler-view-multiselect-master/app/src/main/res/drawable-v24/shape_circle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Android-recycler-view-multiselect-master/app/src/main/res/drawable/add.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Android-recycler-view-multiselect-master/app/src/main/res/drawable/bg_multi_selection.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Android-recycler-view-multiselect-master/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Android-recycler-view-multiselect-master/app/src/main/res/drawable/ic_menu.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Android-recycler-view-multiselect-master/app/src/main/res/drawable/ic_search.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Android-recycler-view-multiselect-master/app/src/main/res/layout/activity_adddata.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Android-recycler-view-multiselect-master/app/src/main/res/layout/activity_multi_select.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Android-recycler-view-multiselect-master/app/src/main/res/layout/item_inbox.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Android-recycler-view-multiselect-master/app/src/main/res/menu/menu_delete.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Android-recycler-view-multiselect-master/app/src/main/res/menu/menu_search_setting.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Android-recycler-view-multiselect-master/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Android-recycler-view-multiselect-master/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Android-recycler-view-multiselect-master/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Android-recycler-view-multiselect-master/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Android-recycler-view-multiselect-master/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Android-recycler-view-multiselect-master/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Android-recycler-view-multiselect-master/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Android-recycler-view-multiselect-master/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Android-recycler-view-multiselect-master/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Android-recycler-view-multiselect-master/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Android-recycler-view-multiselect-master/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Android-recycler-view-multiselect-master/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Android-recycler-view-multiselect-master/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Android-recycler-view-multiselect-master/app/src/main/res/values/dimens.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Android-recycler-view-multiselect-master/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Android-recycler-view-multiselect-master/app/src/main/res/values/styles.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Android-recycler-view-multiselect-master/app/src/test/java/mobi/com/multiselect/ExampleUnitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Android-recycler-view-multiselect-master/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Android-recycler-view-multiselect-master/demo1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Android-recycler-view-multiselect-master/demo2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Android-recycler-view-multiselect-master/demo3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Android-recycler-view-multiselect-master/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Android-recycler-view-multiselect-master/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Android-recycler-view-multiselect-master/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Android-recycler-view-multiselect-master/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Android-recycler-view-multiselect-master/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Android-recycler-view-multiselect-master/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../DemoOTP/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DemoOTP/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DemoOTP/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DemoOTP/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../DemoOTP/app/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/proguard-rules.pro" beforeDir="false" afterPath="$PROJECT_DIR$/../DemoOTP/app/proguard-rules.pro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/androidTest/java/com/example/now/ExampleInstrumentedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DemoOTP/app/src/androidTest/java/com/example/demootp/ExampleInstrumentedTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DemoOTP/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/java/com/example/now/Activity_Location.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/java/com/example/now/Activity_Location_Adapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/java/com/example/now/Activity_Milk_Tea.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/java/com/example/now/Activity_Milk_Tea_Adapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/java/com/example/now/Clicked_Item_Collection_02.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/java/com/example/now/Details_Milk_Tea.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/java/com/example/now/FoodData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/java/com/example/now/Fragment_Four.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/java/com/example/now/Fragment_One.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/java/com/example/now/Fragment_Three.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/java/com/example/now/Fragment_Two.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/java/com/example/now/List_Collection_Adapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/java/com/example/now/List_Menu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/java/com/example/now/List_Menu_Adapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/java/com/example/now/Location.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/java/com/example/now/Login.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/java/com/example/now/Login_Success.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/java/com/example/now/MainActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/java/com/example/now/Main_Collection.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/java/com/example/now/Main_Login_Sign_Up.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/java/com/example/now/Map.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/java/com/example/now/VP_Adapter_Now_Slides.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/java/com/example/now/View_Pager_Adapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DemoOTP/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/res/drawable-v24/muiten.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/res/drawable/android.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/res/drawable/background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/res/drawable/background_search.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/res/drawable/bg_top.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/res/drawable/border.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/res/drawable/botron_dangnhap.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/res/drawable/botron_dangnhapsdt.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/res/drawable/botron_dangxuat.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../KtraLan4/app/src/main/res/drawable-v24/dangnhap.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/res/drawable/botron_facebook.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/res/drawable/botron_gmail.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/res/drawable/botron_matkhau.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/res/drawable/botron_tendangnhap.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/res/drawable/button.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/res/drawable/ic_back_while.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/res/drawable/ic_facebook.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/res/drawable/ic_google.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DemoOTP/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/res/drawable/ic_next.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/res/drawable/ic_phone.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/res/drawable/icon_airpay.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/res/drawable/icon_apartment.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/res/drawable/icon_arrow_down.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/res/drawable/icon_arrow_left.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/res/drawable/icon_arrow_left_02.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../NOW ( DEMO )/app/src/main/res/drawable/ic_back.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/res/drawable/icon_arrow_right.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/res/drawable/icon_arrow_right_02.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../KtraLan4/app/src/main/res/drawable-v24/ic_shop.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/res/drawable/icon_bag.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/res/drawable/icon_beer.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/res/drawable/icon_book.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/res/drawable/icon_card.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/res/drawable/icon_cosmetic.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/res/drawable/icon_delete.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/res/drawable/icon_delivery.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/res/drawable/icon_dog_foot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/res/drawable/icon_extra.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/res/drawable/icon_face.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/res/drawable/icon_favorite_border.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/res/drawable/icon_flower.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/res/drawable/icon_food.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/res/drawable/icon_help.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/res/drawable/icon_helper.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/res/drawable/icon_home.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/res/drawable/icon_home_02.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/res/drawable/icon_laundry.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/res/drawable/icon_list_alt.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/res/drawable/icon_location_on.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/res/drawable/icon_map.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/res/drawable/icon_map_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/res/drawable/icon_medicine.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/res/drawable/icon_milk_tea.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/res/drawable/icon_notifications_none.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/res/drawable/icon_partner.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/res/drawable/icon_person.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/res/drawable/icon_rice.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/res/drawable/icon_search.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/res/drawable/icon_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/res/drawable/icon_shop.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/res/drawable/icon_snacks.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/res/drawable/icon_store.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/res/drawable/icon_supermarket.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/res/drawable/icon_voucher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/res/drawable/icon_warning.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/res/drawable/lock.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/res/drawable/mail.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/res/drawable/map.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/res/drawable/menu_bottom_navigation_view.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../KtraLan4/app/src/main/res/drawable-v24/menu_bottom_navigation_view.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/res/drawable/n1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/res/drawable/n10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/res/drawable/n11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/res/drawable/n12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/res/drawable/n13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/res/drawable/n14.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/res/drawable/n15.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/res/drawable/n16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/res/drawable/n2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/res/drawable/n3.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/res/drawable/n4.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/res/drawable/n5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/res/drawable/n6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/res/drawable/n7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/res/drawable/n8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/res/drawable/n9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/res/drawable/navigation/mobile_navigation.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/res/drawable/now.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/res/drawable/now_combo.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/res/drawable/now_drink_11k.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/res/drawable/now_fast_foods.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/res/drawable/now_freeship_xtra.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/res/drawable/now_sale_10k.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/res/drawable/now_sale_11k.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/res/drawable/now_sale_20k.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/res/drawable/now_sale_21k.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/res/drawable/now_specialties_da_nang.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/res/drawable/now_summer.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/res/drawable/now_super_combo_210k.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/res/drawable/oops.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/res/drawable/room.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/res/drawable/selector.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../KtraLan4/app/src/main/res/drawable-v24/selector.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/res/drawable/slide1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/res/drawable/slide2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/res/drawable/slide3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/res/drawable/slide4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/res/drawable/slide6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/res/drawable/slide7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/res/drawable/slide8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/res/drawable/star.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/res/drawable/ts1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/res/drawable/ts2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/res/drawable/ts3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/res/drawable/ts4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/res/drawable/ts5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/res/drawable/ts6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/res/drawable/user.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/res/drawable/user3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/res/font/open_sans.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/res/font/open_sans_bold.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/res/font/open_sans_light.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/res/font/open_sans_semibold.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/res/font/work_sans_bold.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/res/layout/activity_collection.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/res/layout/activity_location.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/res/layout/activity_login.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/res/layout/activity_milk_tea.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/res/layout/clicked_item_collection_02.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/res/layout/details_milk_tea.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/res/layout/fragment_four.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/res/layout/fragment_one.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/res/layout/fragment_three.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/res/layout/fragment_two.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/res/layout/item_collection.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/res/layout/item_collection_02.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/res/layout/item_location.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/res/layout/item_menu.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/res/layout/item_milk_tea.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/res/layout/item_now_slides.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/res/layout/login.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/res/layout/login_success.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/res/layout/map.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/res/layout/toolbar_location.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/res/menu/context_menu.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../KtraLan4/app/src/main/res/menu/context_menu.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/res/menu/context_menu_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/res/menu/menu_bottom_navigation_view.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DemoOTP/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DemoOTP/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/../DemoOTP/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/../DemoOTP/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/../DemoOTP/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/../DemoOTP/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/../DemoOTP/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/../DemoOTP/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/../DemoOTP/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/../DemoOTP/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/../DemoOTP/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/../DemoOTP/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/res/values/font_certs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/res/values/preloaded_fonts.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/main/res/values/styles.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/app/src/test/java/com/example/now/ExampleUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DemoOTP/app/src/test/java/com/example/demootp/ExampleUnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../DemoOTP/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../DemoOTP/gradle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../DemoOTP/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../DemoOTP/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/../DemoOTP/gradlew" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/../DemoOTP/gradlew.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/NOW ( DEMO )/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../NOW ( DEMO )/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../NOW ( DEMO )/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/app/src/main/java/com/example/now/Activity_Milk_Tea_Adapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../NOW ( DEMO )/app/src/main/java/com/example/now/Activity_Milk_Tea_Adapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/app/src/main/java/com/example/now/Clicked_Item_Collection_02.java" beforeDir="false" afterPath="$PROJECT_DIR$/../NOW ( DEMO )/app/src/main/java/com/example/now/Clicked_Item_Collection_02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/app/src/main/java/com/example/now/Details_Milk_Tea.java" beforeDir="false" afterPath="$PROJECT_DIR$/../NOW ( DEMO )/app/src/main/java/com/example/now/Details_Milk_Tea.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/app/src/main/java/com/example/now/Fragment_One.java" beforeDir="false" afterPath="$PROJECT_DIR$/../NOW ( DEMO )/app/src/main/java/com/example/now/Fragment_One.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/app/src/main/java/com/example/now/List_Collection_Adapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/app/src/main/java/com/example/now/List_Menu_Adapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/app/src/main/java/com/example/now/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/../NOW ( DEMO )/app/src/main/java/com/example/now/Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/app/src/main/java/com/example/now/Login_Success.java" beforeDir="false" afterPath="$PROJECT_DIR$/../NOW ( DEMO )/app/src/main/java/com/example/now/Login_Success.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/app/src/main/java/com/example/now/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../NOW ( DEMO )/app/src/main/java/com/example/now/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/app/src/main/java/com/example/now/Main_Collection.java" beforeDir="false" afterPath="$PROJECT_DIR$/../NOW ( DEMO )/app/src/main/java/com/example/now/Main_Collection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/app/src/main/java/com/example/now/Main_Login_Sign_Up.java" beforeDir="false" afterPath="$PROJECT_DIR$/../NOW ( DEMO )/app/src/main/java/com/example/now/Main_Login_Sign_Up.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/app/src/main/java/com/example/now/Map.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/app/src/main/res/drawable/button.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../NOW ( DEMO )/app/src/main/res/drawable/button.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/app/src/main/res/layout/activity_collection.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../NOW ( DEMO )/app/src/main/res/layout/activity_collection.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/app/src/main/res/layout/activity_location.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../NOW ( DEMO )/app/src/main/res/layout/activity_location.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/app/src/main/res/layout/clicked_item_collection_02.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../NOW ( DEMO )/app/src/main/res/layout/clicked_item_collection_02.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/app/src/main/res/layout/details_milk_tea.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../NOW ( DEMO )/app/src/main/res/layout/details_milk_tea.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/app/src/main/res/layout/item_collection.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../NOW ( DEMO )/app/src/main/res/layout/item_collection.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/app/src/main/res/layout/item_menu.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../NOW ( DEMO )/app/src/main/res/layout/item_menu.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/app/src/main/res/layout/login.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../NOW ( DEMO )/app/src/main/res/layout/login.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/app/src/main/res/layout/login_success.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../NOW ( DEMO )/app/src/main/res/layout/login_success.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/app/src/main/res/layout/map.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../NOW ( DEMO )/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/app/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../NOW ( DEMO )/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NOW ( DEMO )/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../NOW ( DEMO )/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demofirebasetorecycler/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../demofirebasetorecycler/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demofirebasetorecycler/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../demofirebasetorecycler/.idea/misc.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[Pixel_2_XL_API_30]" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view />
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="resourceFile" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1iJQsD2a9DkysDSs5nwG3szD2WH" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ContextMenu" />
+    <property name="settings.editor.selected.configurable" value="memory.settings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.example.activity" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\AndroidStudioProjects\Activity\app\src\main\res\drawable" />
+      <recent name="D:\AndroidStudioProjects\Activity\app\src\main\res\menu" />
+      <recent name="D:\AndroidStudioProjects\Activity\app\src\main\java\com\example\activity" />
+      <recent name="D:\AndroidStudioProjects\Activity\app\src\main\res" />
+      <recent name="D:\AndroidStudioProjects\Activity\app\src\main\java" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="Activity.app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ecc581da-d7a7-49ed-9edb-bcba70dbf0c3" name="Default Changelist" comment="" />
+      <created>1601623419281</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1601623419281</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="566" y="271" width="403" height="289" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1601624121756">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="566" y="271" width="403" height="289" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824@0.0.1536.824" timestamp="1601624121756" />
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1601624884023">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1601624884023" />
+    <state x="349" y="167" key="AndroidCreateResourceFileDialog" timestamp="1601624908688">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="349" y="167" key="AndroidCreateResourceFileDialog/0.0.1536.824@0.0.1536.824" timestamp="1601624908688" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1608564106741">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1608564106741" />
+    <state x="584" y="190" key="chooseDestDirectoryDialog" timestamp="1601624548726">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="584" y="190" key="chooseDestDirectoryDialog/0.0.1536.824@0.0.1536.824" timestamp="1601624548726" />
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1602302687961">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1602302687961" />
+  </component>
+</project>

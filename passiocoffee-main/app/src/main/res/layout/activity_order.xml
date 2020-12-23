@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity.MyCouponActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_marginBottom="10dp"
+        android:id="@+id/toolbar_notification_detail"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#fff" />
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/order"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border_bottom"
+        app:tabSelectedTextColor="@color/black">
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/ice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ice blended" />
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/soda"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tea/soda" />
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/passio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Passio coffee" />
+
+    </com.google.android.material.tabs.TabLayout>
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/vp_order"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </androidx.viewpager.widget.ViewPager>
+</LinearLayout>

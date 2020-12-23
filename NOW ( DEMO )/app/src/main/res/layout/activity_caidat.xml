@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#EEEEEE">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff">
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:scaleType = "centerInside"
+            android:src = "@drawable/ic_back"
+            />
+        <ImageView
+            android:layout_alignParentRight= "true"
+            android:adjustViewBounds = "true"
+            android:layout_width = "wrap_content"
+            android:layout_height = "wrap_content"
+            android:layout_marginRight="7dp"
+            android:layout_marginTop = "10dp"
+            android:scaleType = "centerInside"
+            android:src = "@drawable/ic_setting"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:text="Cài đặt thông báo"
+            android:textColor="#000000"
+            android:textSize="25sp"
+            android:padding="10dp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/re1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:layout_alignParentTop="true"
+        >
+        <LinearLayout
+            android:id="@+id/km"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="vertical"
+            android:background="#FFFFFF">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="3">
+                <TextView
+                    android:layout_marginStart="15dp"
+                    android:layout_weight="2"
+                    android:id="@+id/tv1"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:background="#FFFFFF"
+                    android:text="Thông báo"
+                    android:textColor="#050101"
+                    android:textSize="20sp"
+                    />
+                <Switch
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv12"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:text="Khuyến khích luôn luôn bật để nhận thông báo về tình trạng đơn hàng"
+                android:textSize="12sp"
+                android:layout_gravity="center"
+                android:background="#FFFFFF"
+                android:layout_marginLeft="10dp"
+                />
+        </LinearLayout>
+        <RelativeLayout
+            android:id="@+id/re2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:layout_alignParentTop="true"
+            >
+            <LinearLayout
+                android:id="@+id/tt"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp"
+                android:background="#FFFFFF"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:orientation="vertical"
+                    android:background="#FFFFFF">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="3">
+                        <TextView
+                            android:layout_marginStart="15dp"
+                            android:layout_weight="2"
+                            android:layout_width="match_parent"
+                            android:layout_height="35dp"
+                            android:background="#FFFFFF"
+                            android:text="Khuyến mãi"
+                            android:textColor="#050101"
+                            android:textSize="20sp"
+                            />
+                        <Switch
+                            android:layout_weight="1"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp" />
+
+                    </LinearLayout>
+
+
+                    <TextView
+                        android:id="@+id/tv22"
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:text="Thông báo khuyến mãi ở các tỉnh thành được chọn"
+                        android:textSize="15sp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        />
+                </LinearLayout>
+
+            </LinearLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#fff"
+                android:layout_marginTop="75dp"
+                >
+                <TextView
+                    android:id="@+id/tv3"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:background="#FFFFFF"
+                    android:drawableRight="@drawable/ic_next"
+                    android:drawablePadding="20dp"
+                    android:padding="5dp"
+                    android:text="Tỉnh thành"
+                    android:textColor="#050101"
+                    android:textSize="20sp"
+                    android:layout_marginLeft="10dp"
+                    />
+                <TextView
+                    android:id="@+id/tv23"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:drawablePadding="20dp"
+                    android:padding="5dp"
+                    android:text="1 được chọn"
+                    android:textSize="15sp"
+                    android:layout_marginLeft="300dp"
+                    />
+            </RelativeLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

@@ -12,12 +12,15 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.example.now.Database.DB_Login;
+
 public class Login extends AppCompatActivity {
     private ImageView img1 ;
-    private Button btndn;
-    private EditText edtdn;
+    private Button btndn,btsdt,btdk;
+    private EditText edttk;
     private EditText edtmk;
-    private ProgressBar pbXyLy;
+
+    DB_Login db;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -29,45 +32,44 @@ public class Login extends AppCompatActivity {
                 finish();
             }
         });
-        btndn = (Button) findViewById(R.id.btdn);
-        edtdn = (EditText) findViewById(R.id.etdn);
+        btsdt = (Button) findViewById(R.id.btdt);
+        btdk = (Button) findViewById(R.id.btdk) ;
+
+        btsdt.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View VIEW) {
+                Intent INTENT_02 = new Intent(Login.this, SendOTPActivity.class);
+                startActivity(INTENT_02);
+            }
+        });
+
+        //Nút đăng nhập
+        db= new DB_Login(this);
+        edttk = (EditText) findViewById(R.id.ettk);
         edtmk = (EditText) findViewById(R.id.etmk);
-        pbXyLy = (ProgressBar) findViewById(R.id.progressBar);
+        btndn = (Button) findViewById(R.id.btdn);
+
         btndn.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View view) {
-                if(edtdn.getText().toString().equals("admin") && edtmk.getText().toString().equals("admin")){
-                    CountDownTimer countDownTimer = new CountDownTimer(900,100) {
-                        @Override
-                        public void onTick(long millisUntilFinished) {
-                            int  cur = pbXyLy.getProgress();
-                            if(cur >= pbXyLy.getMax()){
-                                cur = 0;
-                            }
-                            pbXyLy.setProgress(cur+40);
-                        }
-                        @Override
-                        public void onFinish() {
-                            Intent intent = new Intent(Login.this, Login_Success.class);
-                            startActivity(intent);
-                        }
-                    }.start();
+            public void onClick(View v) {
+                String user = edttk.getText().toString();
+                String pass = edtmk.getText().toString();
+                boolean Check = db.userpass(user,pass);
+                if(Check==true ){
+                    Intent intent = new Intent(getApplicationContext(),Login_Success.class);
+                    intent.putExtra("user", edttk.getText().toString());
+                    startActivity(intent);
                 }else{
-                    CountDownTimer countDownTimer = new CountDownTimer(900,100) {
-                        @Override
-                        public void onTick(long millisUntilFinished) {
-                            int  cur = pbXyLy.getProgress();
-                            if(cur >= pbXyLy.getMax()){
-                                cur = 0;
-                            }
-                            pbXyLy.setProgress(cur+40);
-                        }
-                        @Override
-                        public void onFinish() {
-                            Toast.makeText(getApplicationContext(), "Vui lòng kiểm tra lại tài khoản và mật khẩu !!",Toast.LENGTH_LONG).show();
-                        }
-                    }.start();
+                    Toast.makeText(getApplicationContext(),"Sai tài khoản hoặc mật khẩu",Toast.LENGTH_SHORT).show();
                 }
+            }
+        });
+
+        btdk.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(Login.this, register.class);
+                startActivity(intent);
             }
         });
     }

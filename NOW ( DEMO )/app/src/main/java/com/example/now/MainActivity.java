@@ -21,6 +21,11 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
+import com.example.now.Adapter.BoSuuTap_Adapter;
+import com.example.now.Adapter.Menu_Adapter;
+import com.example.now.DTO.Menu;
+import com.example.now.TruyVan.BoSuuTap_TV;
+import com.example.now.TruyVan.Menu_TV;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.tabs.TabLayout;
 
@@ -29,21 +34,15 @@ import java.util.Timer;
 import java.util.TimerTask;
 
 public class MainActivity extends AppCompatActivity {
-
-    GridView GV_01, GV_02;
     TextView TV_LOCATION , TV_Xem_Them, LOCATION;
     private ViewPager VP_IMAGE;
+    GridView gv,gv2;
+    ArrayList<Menu> arrayList,arrayList2;
+    Menu_Adapter adapter;
+    Menu_TV menuTV;
 
-    String mTitle[] = {"Trà Sữa", "Cơm", "Ăn Vặt", "Đặt Bàn", "Đối Tác", "Hoa", "Thuốc", "Bia", "Giúp Việc",
-            "Freeship Xtra", "NowShip - Giao Hàng", "Ưu Đãi AirPay", "Quán Mới", "NowFresh - Thực Phẩm",
-            "Siêu Thị - FREESHIP", "Thú Cưng", "Giặt Ủi", "Làm Đẹp"};
-    int images[] = {R.drawable.icon_milk_tea, R.drawable.icon_rice, R.drawable.icon_snacks, R.drawable.icon_book, R.drawable.icon_partner, R.drawable.icon_flower, R.drawable.icon_medicine, R.drawable.icon_beer, R.drawable.icon_helper,
-            R.drawable.icon_extra, R.drawable.icon_delivery, R.drawable.icon_airpay, R.drawable.icon_store, R.drawable.icon_food, R.drawable.icon_supermarket, R.drawable.icon_dog_foot, R.drawable.icon_laundry, R.drawable.icon_cosmetic};
-
-    String Title2[] = {"6 giờ vàng ăn sáng", "Siêu deal thứ 3 chỉ 10k", "Đồ uống chỉ 11k", "Ăn chỉ 21k", "Compo mua 1 tặng 1",
-            "Siêu combo 210k", "Hè không nghỉ", "Món ăn nhanh", "Đặc sản Đà Nẵng", "Freeship Xtra + Giảm 50%"};
-    int images2[] = {R.drawable.now_sale_20k, R.drawable.now_sale_10k, R.drawable.now_drink_11k, R.drawable.now_sale_21k, R.drawable.now_combo,
-            R.drawable.now_super_combo_210k, R.drawable.now_summer, R.drawable.now_fast_foods, R.drawable.now_specialties_da_nang, R.drawable.now_freeship_xtra};
+    BoSuuTap_Adapter adapter2;
+    BoSuuTap_TV bosuutapTV;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -51,6 +50,21 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         initView();
         initListener();
+
+        //Đổ dữ liệu ra menu
+        menuTV = new Menu_TV(MainActivity.this);
+        arrayList = menuTV.getAll();
+        gv = findViewById(R.id.GV_01);
+        adapter = new Menu_Adapter(MainActivity.this, arrayList);
+        gv.setAdapter(adapter);
+
+        //Đổ dữ liệu ra bộ sưu tập
+        bosuutapTV = new BoSuuTap_TV(MainActivity.this);
+        arrayList2 = bosuutapTV.getAll();
+        gv2 = findViewById(R.id.GV_02);
+        adapter2 = new BoSuuTap_Adapter(MainActivity.this, arrayList2);
+        gv2.setAdapter(adapter2);
+
 
         BottomNavigationView BottomNavigationView = findViewById(R.id.BNV);
 
@@ -65,12 +79,18 @@ public class MainActivity extends AppCompatActivity {
                     case R.id.item_list:
                         return;
                     case R.id.item_save:
+                        Intent INTENT_01 = new Intent(MainActivity.this, Saved_Activity_Main.class ) ;
+                        startActivity( INTENT_01 ) ;
+                        overridePendingTransition(0,0);
                         return;
                     case R.id.item_notice:
+                        Intent INTENT_02 = new Intent(MainActivity.this, Thongbao.class ) ;
+                        startActivity( INTENT_02   ) ;
+                        overridePendingTransition(0,0);
                         return;
                     case R.id.item_about:
-                        Intent INTENT_01 = new Intent(MainActivity.this, Main_Login_Sign_Up.class ) ;
-                        startActivity( INTENT_01 ) ;
+                        Intent INTENT_05 = new Intent(MainActivity.this, Main_Login_Sign_Up.class ) ;
+                        startActivity( INTENT_05 ) ;
                         overridePendingTransition(0,0);
                         return;
                 }
@@ -91,7 +111,7 @@ public class MainActivity extends AppCompatActivity {
         TV_LOCATION.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View VIEW) {
-                Intent INTENT_01 = new Intent(MainActivity.this, Map.class);
+                Intent INTENT_01 = new Intent(MainActivity.this, MapsActivity.class);
                 startActivity(INTENT_01);
             }
         });
@@ -111,30 +131,15 @@ public class MainActivity extends AppCompatActivity {
         Timer timer = new Timer();
         timer.scheduleAtFixedRate(new MyTimerTask(),1000,2000);
 
-        List_Menu_Adapter adapter = new List_Menu_Adapter(this, mTitle, images);
-        GV_01.setAdapter(adapter);
-
-        GV_01.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-            @Override
-            public void onItemClick(AdapterView<?> parent, View view, int i, long l) {
-                String selectedName = mTitle[i];
-                int selectedImage = images[i];
-                startActivity(new Intent(MainActivity.this, Activity_Milk_Tea.class).putExtra("name",selectedName).putExtra("image",selectedImage));
-            }
-        });
-
-        List_Collection_Adapter adapter2 = new List_Collection_Adapter(this, Title2, images2);
-        GV_02.setAdapter(adapter2);
     }
 
     private void initView() {
-        GV_01 = findViewById(R.id.GV_01);
-        GV_02 = findViewById(R.id.GV_02);
         LOCATION = findViewById(R.id.LOCATION);
         TV_LOCATION = findViewById(R.id.TV_LOCATION);
         TV_Xem_Them = findViewById(R.id.TV_Xem_Them);
         VP_IMAGE = findViewById(R.id.VP_IMAGE);
     }
+
 
     public class MyTimerTask extends TimerTask {
         @Override

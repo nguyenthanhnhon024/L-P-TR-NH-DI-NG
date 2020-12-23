@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#E0E1DA">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:layout_marginBottom="1dp">
+        <ImageView
+            android:id="@+id/caidat"
+            android:layout_alignParentRight= "true"
+            android:adjustViewBounds = "true"
+            android:layout_width = "wrap_content"
+            android:layout_height = "wrap_content"
+            android:layout_marginRight="7dp"
+            android:layout_marginTop = "10dp"
+            android:scaleType = "centerInside"
+            android:src = "@drawable/ic_setting"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:text="Thông báo"
+            android:textColor="#000000"
+            android:textSize="25sp"
+            android:padding="10dp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/re1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_alignParentTop="true"
+        >
+        <LinearLayout
+            android:id="@+id/km"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal"
+            android:weightSum="5"
+            android:layout_marginTop="7dp"
+            android:background="@color/white"
+            >
+            <ImageView
+                android:layout_marginStart="10dp"
+                android:layout_weight="0.5"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/ic_sale"/>
+            <LinearLayout
+                android:layout_weight="4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:background="#FFFFFF"
+                    android:drawablePadding="20dp"
+                    android:padding="5dp"
+                    android:text="Khuyến mãi"
+                    android:textColor="#050101"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:background="#FFFFFF"
+                    android:drawablePadding="20dp"
+                    android:padding="5dp"
+                    android:text="Yêu không thể nửa vời nhưng ăn chỉ cần nửa..."
+                    android:textColor="#050101"
+                    android:textSize="14sp" />
+
+            </LinearLayout>
+            <ImageView
+                android:layout_weight="0.5"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/ic_next"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/tt"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="vertical"
+            android:layout_marginTop="60dp"
+            >
+            <LinearLayout
+                android:layout_marginTop="11dp"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:orientation="horizontal"
+                android:weightSum="5"
+                android:background="@color/white"
+                >
+                <ImageView
+                    android:layout_marginStart="10dp"
+                    android:layout_weight="0.5"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/ic_tintuc"/>
+                <LinearLayout
+                    android:layout_weight="4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:background="#FFFFFF"
+                        android:drawablePadding="20dp"
+                        android:padding="5dp"
+                        android:text="Tin tức"
+                        android:textColor="#050101"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:background="#FFFFFF"
+                        android:drawablePadding="20dp"
+                        android:padding="5dp"
+                        android:text="Chưa có Tin tức nào"
+                        android:textColor="#050101"
+                        android:textSize="14sp" />
+
+                </LinearLayout>
+                <ImageView
+                    android:layout_weight="0.5"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/ic_next"/>
+
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginTop="135dp"
+            android:background="#EEEEEE"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/tv3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Cập nhật đơn hàng"
+                android:padding="10dp"
+                android:textSize="18sp" />
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:src="@drawable/anh"
+                />
+            <TextView
+                android:id="@+id/tv4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Trải nghiệm ngay!"
+                android:padding="20dp"
+                android:textSize="18sp"
+                android:textColor="#000000"
+                />
+            <TextView
+                android:id="@+id/tv5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Thông tin đơn hàng sẽ được cập nhật tại đây."
+                android:padding="15dp"
+                android:textSize="18sp"
+                />
+        </LinearLayout>
+    </RelativeLayout>
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/BNV"
+        android:layout_gravity="bottom"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        app:itemBackground="@color/white"
+        app:itemIconTint="@drawable/selector"
+        app:itemTextColor="@drawable/selector"
+        app:itemHorizontalTranslationEnabled="true"
+        android:background="@drawable/menu_bottom_navigation_view"
+        app:labelVisibilityMode="labeled"
+        app:menu="@menu/menu_bottom_navigation_view"
+        app:itemTextAppearanceActive="@style/Bottom_Navigation_View"/>
+</RelativeLayout>

@@ -16,7 +16,7 @@ public class Details_Milk_Tea extends AppCompatActivity {
     TextView foodDanhGia1;
     TextView foodPrice1;
     TextView foodTitle1;
-    ImageView foodImage;
+    ImageView foodImage,back;
     RatingBar ratingBar;
     Button btSubmit;
 
@@ -49,6 +49,13 @@ public class Details_Milk_Tea extends AppCompatActivity {
             public void onClick(View v) {
                 String s = String.valueOf(ratingBar.getRating());
                 Toast.makeText(getApplicationContext(),s+" Star", Toast.LENGTH_SHORT).show();
+            }
+        });
+
+        back = findViewById(R.id.back);
+        back.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                finish();
             }
         });
     }

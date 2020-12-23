@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.duyexample.passiocoffee.Activity.LoginActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/back_passio" />
+
+    <Button
+        android:textStyle="bold"
+        android:id="@+id/lg_face"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/radius_border"
+        android:text="Đăng nhập bằng Facebook"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/lg_phone"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lg_face"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="17dp"
+        android:background="@drawable/radius_green"
+        android:text="Đăng nhập bằng số điện thoại"
+        android:textAllCaps="false"
+        android:textStyle="bold" />
+</RelativeLayout>

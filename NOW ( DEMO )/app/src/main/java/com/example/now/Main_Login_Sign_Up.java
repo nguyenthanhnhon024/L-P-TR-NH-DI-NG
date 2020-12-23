@@ -43,8 +43,12 @@ public class Main_Login_Sign_Up extends AppCompatActivity {
                     case R.id.item_list:
                         return;
                     case R.id.item_save:
+                        startActivity(new Intent(getApplicationContext(), Saved_Activity_Main.class));
+                        overridePendingTransition(0,0);
                         return;
                     case R.id.item_notice:
+                        startActivity(new Intent(getApplicationContext(), Thongbao.class));
+                        overridePendingTransition(0,0);
                         return;
                     case R.id.item_about:
                         return;

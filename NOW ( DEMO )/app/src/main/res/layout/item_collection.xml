@@ -13,7 +13,7 @@
         <ImageView
             android:id="@+id/image2"
             android:layout_width="150dp"
-            android:layout_height="161dp"
+            android:layout_height="169dp"
             android:layout_gravity="center"
             android:layout_marginTop="5dp"
             android:src="@mipmap/ic_launcher" />
@@ -24,7 +24,7 @@
             android:layout_gravity="center_horizontal"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/textView2"
+            android:id="@+id/title2"
             android:text="Main Title"
             android:textColor="#000"
             android:layout_margin="5dp"
